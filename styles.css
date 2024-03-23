@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#banner {
+    background-image: url('banner.jpg'); /* Ganti 'banner.jpg' dengan URL gambar latar belakang Anda */
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#about, #programs, #news {
+    padding: 50px 0;
+}
+
+#about {
+    background-color: #f4f4f4;
+}
+
+#programs {
+    background-color: #eaeaea;
+}
+
+#news {
+    background-color: #f9f9f9;
+}
+
+.program, .news-item {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-cols {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-col h3 {
+    color: #fff;
+}
+
+.footer-col ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #777;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px; /* Mengatur ukuran logo */
+    margin-right: 10px;
+}
+
+.logo h1 {
+    margin: 0;
+}
